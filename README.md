@@ -1,8 +1,6 @@
 # Techniques
 Different coding techniques
 
-######################################
-BEM
+## BEM
 
-######################################
-Parallax Scrolling
+## Parallax Scrolling
