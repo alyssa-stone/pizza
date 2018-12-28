@@ -1,9 +1,8 @@
 # Techniques
-Different coding techniques
+
+Different techniques for Funsies
 =============================
-## BEM
-
-## Parallax Scrolling
-
-## Bootstrap 3
-
+- BEM
+- Parallax Scrolling
+- Bootstrap 3
+- Gradient hr
