@@ -20,11 +20,12 @@
 }
 
 .pizza {
-    min-height: 700px;
+    min-height: 500px;
 }
 
 .pizza--title {
-    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .pizza--parallax {
@@ -36,17 +37,61 @@
     background-size: cover;
 }
 
+.pizza--para {
+    line-height: 2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pizza--after--para {
+    padding: 30px;
+}
+
 .pizza--line {
     border: 0;
     height: 2px;
     background: #333333; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #dd1818, #333333); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #990000, #333333);
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #990000, #333333);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .pizza--img {
     max-height: 300px;
     max-width: 300px;
+}
+
+.pizza--background {
+    background-image: url("https://via.placeholder.com/1200x300");
+    min-height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pizza--btn {
+    background-color: #990000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.pizza--btn:hover,
+.pizza-btn:focus {
+    background-color: #ffffff;
+    color: #990000;
+    border-color: #990000;
 }
 
 .pizza--menu {
@@ -63,6 +108,7 @@
 .pizza--menu--link:hover,
 .pizza--menu--link:focus {
     border-color: #ffffff;
+    color: #ffffff;
 }
 
 .pizza--footer--menu {
