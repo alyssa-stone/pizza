@@ -1,0 +1,85 @@
+.pizza__red {
+    background-color: #990000;
+}
+
+.pizza__centered {
+    text-align: center;
+}
+
+.pizza__white {
+    color: #ffffff;
+}
+
+.pizza__bold {
+    font-weight: 700;
+}
+
+.pizza__padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pizza {
+    min-height: 700px;
+}
+
+.pizza--title {
+    color: #ffffff;
+}
+
+.pizza--parallax {
+    background-attachment: fixed;
+    background-image: url("https://via.placeholder.com/1500x600");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pizza--line {
+    border: 0;
+    height: 2px;
+    background: #333333; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pizza--img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.pizza--menu {
+    list-style: none;
+}
+
+.pizza--menu--link {
+    text-transform: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.pizza--menu--link:hover,
+.pizza--menu--link:focus {
+    border-color: #ffffff;
+}
+
+.pizza--footer--menu {
+    padding-left: 0;
+    float: left;
+}
+
+.pizza--footer--menu--link {
+    display: block;
+    text-align: left;
+}
+
+.pizza--footer--address {
+    text-align: left;
+}
+
+.pizza--footer--address--line {
+    color: #ffffff;
+    margin-bottom: 0;
+}
